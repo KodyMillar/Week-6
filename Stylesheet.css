@@ -13,3 +13,24 @@ li {
 .list > li {
     border-bottom: solid grey 1px;
 }
+
+li a:link {
+    color: green;
+}
+
+li a:visited {
+    color: red;
+}
+
+li a:hover {
+    color: pink;
+}
+
+li:first-child::first-letter {
+    font-weight: 700;
+    font-size: 120%;
+}
+
+a[href*="https://bcit.ca"] {
+    background-color: yellow;
+}
